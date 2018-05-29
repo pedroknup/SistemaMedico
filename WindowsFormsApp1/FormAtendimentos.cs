@@ -7,8 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WindowsFormsApp1;
 
-namespace SistemaMedico
+namespace SistemaMedicoSolucao
 {
     public partial class FormAtendimentos : Form
     {
@@ -33,6 +34,11 @@ namespace SistemaMedico
 
         private void label1_MouseLeave(object sender, EventArgs e) {
             label1.ForeColor = Color.Black;
+        }
+
+        private void BNovoPaciente_Click(object sender, EventArgs e) {
+            var _formNovoPaciente = new FormNovoPaciente();
+            _formNovoPaciente.ShowDialog();
         }
     }
 }

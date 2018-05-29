@@ -1,4 +1,4 @@
-﻿namespace SistemaMedico {
+﻿namespace SistemaMedicoSolucao {
     partial class FormLogin {
         /// <summary>
         /// Required designer variable.

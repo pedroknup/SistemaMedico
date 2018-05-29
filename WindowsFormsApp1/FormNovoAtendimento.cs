@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace SistemaMedico
+namespace SistemaMedicoSolucao
 {
     public partial class FormNovoAtendimento : Form
     {

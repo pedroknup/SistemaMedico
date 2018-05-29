@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace SistemaMedico.Properties
+namespace SistemaMedicoSolucao.Properties
 {
 
 

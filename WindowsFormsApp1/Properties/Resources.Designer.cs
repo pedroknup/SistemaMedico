@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace SistemaMedico.Properties {
+namespace WindowsFormsApp1.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace SistemaMedico.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("SistemaMedico.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("WindowsFormsApp1.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -63,6 +63,36 @@ namespace SistemaMedico.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap if_081_Pen_183209 {
+            get {
+                object obj = ResourceManager.GetObject("if_081_Pen_183209", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap if_add_126583__1_ {
+            get {
+                object obj = ResourceManager.GetObject("if_add_126583 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap if_ic_save_48px_352084 {
+            get {
+                object obj = ResourceManager.GetObject("if_ic_save_48px_352084", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap if_icon_person_add_211872__1_ {
             get {
                 object obj = ResourceManager.GetObject("if_icon-person-add_211872 (1)", resourceCulture);
@@ -76,6 +106,16 @@ namespace SistemaMedico.Properties {
         internal static System.Drawing.Bitmap if_icon_person_add_211872__2_ {
             get {
                 object obj = ResourceManager.GetObject("if_icon-person-add_211872 (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap if_Streamline_70_185090 {
+            get {
+                object obj = ResourceManager.GetObject("if_Streamline-70_185090", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

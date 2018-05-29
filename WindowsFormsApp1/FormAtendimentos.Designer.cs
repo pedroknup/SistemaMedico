@@ -1,4 +1,4 @@
-﻿namespace SistemaMedico
+﻿namespace SistemaMedicoSolucao
 {
     partial class FormAtendimentos
     {
@@ -138,7 +138,7 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Image = global::SistemaMedico.Properties.Resources.if_Vector_icons_55_1041645;
+            this.button1.Image = global::WindowsFormsApp1.Properties.Resources.if_Vector_icons_55_1041645;
             this.button1.Location = new System.Drawing.Point(12, 94);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(156, 83);
@@ -151,7 +151,7 @@
             // BNovoPaciente
             // 
             this.BNovoPaciente.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BNovoPaciente.Image = global::SistemaMedico.Properties.Resources.if_icon_person_add_211872__2_;
+            this.BNovoPaciente.Image = global::WindowsFormsApp1.Properties.Resources.if_icon_person_add_211872__2_;
             this.BNovoPaciente.Location = new System.Drawing.Point(12, 10);
             this.BNovoPaciente.Name = "BNovoPaciente";
             this.BNovoPaciente.Size = new System.Drawing.Size(156, 78);
@@ -159,6 +159,7 @@
             this.BNovoPaciente.Text = "Novo Paciente";
             this.BNovoPaciente.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.BNovoPaciente.UseVisualStyleBackColor = true;
+            this.BNovoPaciente.Click += new System.EventHandler(this.BNovoPaciente_Click);
             // 
             // pictureBox1
             // 
